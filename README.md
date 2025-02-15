@@ -51,9 +51,6 @@ Pré-requisitos
     Pontuação:
 
         Ganhe 10 pontos por abrir um campo seguro.
-
-        Ganhe 20 pontos por marcar uma mina corretamente.
-
         Perde toda a pontuação ao abrir uma mina.
 
     Fim do Jogo:
