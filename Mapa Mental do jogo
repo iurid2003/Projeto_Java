@@ -1,0 +1,57 @@
+- **Tabuleiro**
+  - Atributos
+    - linhas
+    - colunas
+    - minas
+    - pontuacao
+    - campos (List<Campo>)
+  - Métodos
+    - gerarCampos()
+    - associarVizinhos()
+    - sortearMinas()
+    - objetivoAlcancado()
+    - reiniciar()
+    - getPontuacao()
+    - aumentarPontuacao(int pontos)
+    - diminuirPontuacao(int pontos)
+    - executarAcao(int linha, int coluna, String acao)
+    - toString()
+
+- **Campo**
+  - Atributos
+    - linha
+    - coluna
+    - minado
+    - aberto
+    - marcado
+    - vizinhos (List<Campo>)
+  - Métodos
+    - adicionarVizinho(Campo vizinho)
+    - alternarMarcacao()
+    - abrir()
+    - vizinhacaSegura()
+    - minar()
+    - isMinado()
+    - isAberto()
+    - isFechado()
+    - getLinha()
+    - getColuna()
+    - objetivoAlcancado()
+    - minasNaVizinhaca()
+    - reiniciar()
+    - toString()
+
+- **Aplicacao**
+  - Métodos
+    - main(String[] args)
+      - Inicializa o Tabuleiro
+      - Loop principal do jogo
+        - Exibe o tabuleiro
+        - Solicita entrada do usuário
+        - Executa ação no tabuleiro
+        - Verifica se o jogo terminou (vitória ou explosão)
+        - Reinicia o jogo se necessário
+
+- **Exceção**
+  - Explosao
+    - Lançada quando um campo minado é aberto
