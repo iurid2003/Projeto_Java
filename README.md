@@ -11,11 +11,7 @@ Este é um jogo de Campo Minado desenvolvido em Java, onde o objetivo é abrir t
 
         Ganhe pontos ao abrir campos seguros.
 
-        Ganhe mais pontos ao marcar minas corretamente.
-
         Perde toda a pontuação ao abrir uma mina.
-
-    Marcação de campos: Marque campos suspeitos de conterem minas.
 
     Reinicialização automática: O jogo reinicia automaticamente após uma explosão.
 
@@ -37,8 +33,6 @@ Pré-requisitos
         Cada campo é representado por:
 
             #: Campo fechado. 
-            
-           Número: Quantidade de minas vizinhas.
            Espaço em branco: Campo seguro sem minas vizinhas.
 
     Ações Disponíveis:
