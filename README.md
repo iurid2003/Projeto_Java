@@ -2,7 +2,7 @@
 
 Campo Minado em Java
 
-Este é um jogo de Campo Minado desenvolvido em Java, onde o objetivo é abrir todos os campos seguros sem detonar nenhuma mina. O jogo inclui funcionalidades como marcação de minas, pontuação dinâmica e reinicialização automática após uma explosão.
+Este é um jogo de Campo Minado desenvolvido em Java, onde o objetivo é abrir todos os campos seguros sem detonar nenhuma mina. O jogo inclui funcionalidades como  pontuação dinâmica e reinicialização automática após uma explosão.
 📋 Funcionalidades
 
     Tabuleiro personalizável: Escolha o tamanho do tabuleiro e a quantidade de minas.
